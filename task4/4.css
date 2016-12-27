@@ -1,0 +1,25 @@
+.grey{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #ccc;
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+}
+.semi-circle{
+	background: #fc0;
+	border-bottom-right-radius: 50px;
+	width: 50px;
+	height: 50px; 
+}
+.semi-circle-bottom{
+	position: relative;
+	right: -350px;
+	bottom: -100px;
+	background: #fc0;
+	border-top-left-radius: 50px;
+	width: 50px;
+	height: 50px; 
+}

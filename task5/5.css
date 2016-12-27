@@ -1,0 +1,124 @@
+body{
+	background: #EEEEEE;
+	margin: 0;
+	padding: 0;
+}
+h1, tr,td {
+	margin: 0;
+	padding: 0;
+}
+div{
+	background: #ffffff;
+	margin: 20px;
+	border: 1px solid #999;
+	border-bottom: 3px solid #666;
+	border-right: 3px solid #666;
+	padding: 20px;
+}
+dl{
+	border: 1px solid #999;
+	padding: 10px;
+	width: 153px;
+}
+.side{
+	font-size: 20px;
+	border-left: 3px solid #eee;
+	padding: 5px;
+	padding-left: 15px;
+}
+nav{
+	padding: 20px;
+	margin: 0;
+	width: 100%;
+	background: black;
+	color: white;
+}
+.nav-bar{
+	float: right;
+	margin-top: -25px;
+	margin-right: 30px;
+}
+.nav{
+	display: inline-block;
+	width: 100px;
+	top: 0;
+}
+footer{
+	margin-left: 0px;
+	background: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	clear: both;
+}
+.grey{
+	color: #999;
+}
+.light{
+	color: #BBB;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	border-top:1px solid #999;
+	border-left: 1px solid #999;
+}
+td{
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+.th{
+	background: black;
+	color: white;
+}
+.total{
+	background: #CCC;
+}
+.btn{
+	padding: 13px;
+	display: block;
+	width: 100%;
+	border:none;
+	border-radius: 6px;
+	background: blue;
+	color: white;
+}
+label{
+	float: left;
+	width: 40%;
+	text-align: right;
+}
+textarea{
+	width: 50%;
+}
+.form{
+	padding: 0;
+	border:none;
+	margin: 10px;
+}
+
+/*5*/
+.right{
+	margin-left: 0;
+	width: 360px;
+	float: right;
+}
+.left{
+	margin: 0;
+	margin-right: 430px;
+	background: #EEEEEE;
+	padding: 0;
+	border:none;
+}
+.photos{
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.photo{
+	margin-right: 10px;
+}

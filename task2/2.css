@@ -1,0 +1,11 @@
+body{
+	background: #EEEEEE;
+}
+div{
+	background: #ffffff;
+	margin: 20px;
+	border: 1px solid #999;
+	border-bottom: 3px solid #666;
+	border-right: 3px solid #666;
+	padding-left: 15px;
+}

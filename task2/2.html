@@ -8,17 +8,17 @@
 <body>
 <nav>
 	<h1>网站一级标题</h1>
-	<ul>
-		<li><a href="www.baidu.com"></a>导航链接一</li>
-		<li><a href="www.baidu.com"></a>导航链接二</li>
-		<li><a href="www.baidu.com"></a>导航链接三</li>
-		<li><a href="www.baidu.com"></a>导航链接四</li>
+	<ul class="nav-bar">
+		<li class="nav"><a href="www.baidu.com"></a>导航链接一</li>
+		<li class="nav"><a href="www.baidu.com"></a>导航链接二</li>
+		<li class="nav"><a href="www.baidu.com"></a>导航链接三</li>
+		<li class="nav"><a href="www.baidu.com"></a>导航链接四</li>
 	</ul>
 </nav>
 <div>
 	<h2>文章一级标题</h2>
-	<h3>文章二级标题</h3>
-	<h4>文章作者&nbsp;文章发表时间</h4>
+	<h3 class="grey">文章二级标题</h3>
+	<h4 class="light">文章作者&nbsp;文章发表时间</h4>
 	<p><b>春日宴</b> <br>
 	绿酒一杯歌一遍 <br>
 	再拜陈三愿 <br>
@@ -34,8 +34,8 @@
 	
 <div>
 	<h2>另一篇文章一级标题</h2>
-	<h3>文章二级标题</h3>
-	<h4>文章作者&nbsp;文章发表时间</h4>
+	<h3 class="grey">文章二级标题</h3>
+	<h4 class="light">文章作者&nbsp;文章发表时间</h4>
 	<p><b>春日宴</b> <br>
 	绿酒一杯歌一遍 <br>
 	再拜陈三愿 <br>
@@ -81,16 +81,16 @@
 	
 <div>
 	<h2>最后一篇文章一级标题</h2>
-	<h3>文章二级标题</h3>
-	<h4>文章作者&nbsp;文章发表时间</h4>
+	<h3 class="grey">文章二级标题</h3>
+	<h4 class="light">文章作者&nbsp;文章发表时间</h4>
 	<ol>
 		<li>排名1</li>
 		<li>排名2</li>
 		<li>排名3</li>
 	</ol>
 	下面是一个表格。。。
-	<table border="1">
-		<tr>
+	<table>
+		<tr class="th">
 			<td>表头</td>
 			<td>表头</td>
 			<td>表头</td>
@@ -110,7 +110,7 @@
 			<td>表内容单元格</td>
 			<td><a href="http://www.ife.baidu.com">操作</a></td>
 		</tr>
-		<tr>
+		<tr class="total">
 			<td>总计</td>
 			<td colspan="2">1000</td>
 		</tr>
@@ -118,39 +118,53 @@
 </div>
 
 <div>
-	<h2>侧栏标题</h2>
-	<h3>侧栏注册窗口标题</h3>
+	<h2 class="side">这里以后是一个侧栏。这是侧栏标题。。</h2>
 	<form>
-		<label>请输入邮箱地址：</label>
-		<input type="text" name="email" placeholder="这是一个文本输入框"> <br>
-		邮箱地址请按要求格式输入 <br>
-		<label>请输入密码：</label>
-		<input type="text" name="email" placeholder="这是一个文本输入框">
-		<label>请重复输入密码：</label>
-		<input type="text" name="email" placeholder="这是一个文本输入框"> <br>
-		密码请为6-16位英文数字 <br>
-		<label>性别：</label>
-		<input type="radio" name="sex" value="1" checked>男
-		<input type="radio" name="sex" value="2">女
-		<br>
-		<label>城市：</label>
-		<select>
-			<option>北京</option>
-			<option>上海</option>
-			<option>广州</option>
-			<option>深圳</option>
-			<option>西安</option>
-		</select>
-		<br>
-		<label>爱好：</label>
-		<input type="checkbox" name="hobby">运动
-		<input type="checkbox" name="hobby">艺术
-		<input type="checkbox" name="hobby">科学
-		<br>
-		<label>个人描述：</label>
-		<textarea>这是一个多行输入框，输入你的个人描述...</textarea>
+		<div class="form">
+			<label>请输入邮箱地址：</label>
+			<input type="text" name="email" placeholder="这是一个文本输入框"> <br>
+			<span class="light">
+				邮箱地址请按要求格式输入
+			</span>
+		</div>
+		<div class="form">
+			<label>请输入密码：</label>
+			<input type="password" name="email" value="12341234">
+		</div>
+		<div  class="form">
+			<label>请重复输入密码：</label>
+			<input type="password" name="email" value="12341234"> <br>
+			<span class="light">
+				密码请为6-16位英文数字 
+			</span>
+		</div>
+		<div  class="form"> 
+			<label>性别：</label>
+			<input type="radio" name="sex" value="1" checked>男
+			<input type="radio" name="sex" value="2">女
+		</div>
+		<div  class="form">
+			<label>城市：</label>
+			<select>
+				<option>北京</option>
+				<option>上海</option>
+				<option>广州</option>
+				<option>深圳</option>
+				<option>西安</option>
+			</select>
+		</div>
+		<div  class="form">
+			<label>爱好：</label>
+			<input type="checkbox" name="hobby">运动
+			<input type="checkbox" name="hobby">艺术
+			<input type="checkbox" name="hobby">科学
+		</div>
+		<div  class="form">
+			<label>个人描述：</label>
+			<textarea>这是一个多行输入框，输入你的个人描述...</textarea>
+		</div>
 
-		<input type="submit" name="" value="确认提交">
+		<input class="btn" type="submit" name="" value="确认提交">
 	</form>
 </div>
 
